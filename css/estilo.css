@@ -27,15 +27,6 @@ body {
   grid-template-areas: "pika pika" "pikamain pikaaside" "footer footer";
 }
 
-.raichucontenedor {
-  margin: auto;
-  width: 90%;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: auto 4fr auto;
-  grid-template-areas: "raichu raichu" "raichumain raichuaside" "footer footer";
-}
-
 .header {
   background: linear-gradient(yellow, red, black);
   background: repeat cover;
@@ -230,6 +221,15 @@ ul li:hover ul {
 
 .footer img {
   width: 100px;
+}
+
+.raichucontenedor {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 4fr auto;
+  grid-template-areas: "raichu raichu" "raichumain raichuaside" "footer footer";
 }
 
 @media screen and (max-width: 768px) {
